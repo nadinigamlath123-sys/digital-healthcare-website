@@ -864,27 +864,54 @@ img {
 }
 
 .photo-citation-bar {
-  margin-top: 0.5rem;
-  padding: 0.4rem 0.75rem;
-  background: #f0f7ff;
-  border: 1px solid #cce3f8;
-  border-radius: var(--radius-sm);
-  font-size: 0.78rem;
-  color: #1e40af;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
+  margin-top: 0.6rem;
+  padding: 0.6rem 0.85rem;
+  background: #f8fafc;
+  border-left: 3px solid var(--primary-blue);
+  border-top: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  font-size: 0.76rem;
+  color: #334155;
+  line-height: 1.45;
+}
+
+.photo-citation-bar strong {
+  color: var(--primary-navy);
+  font-weight: 700;
 }
 
 .photo-citation-bar a {
   color: #0284c7;
-  font-weight: 700;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .photo-citation-bar a:hover {
   text-decoration: underline;
+}
+
+.chart-card-footer {
+  margin-top: 1.25rem;
+  padding-top: 0.85rem;
+  border-top: 1.5px solid #bedbf3;
+  font-size: 0.78rem;
+  color: #475569;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.chart-card-footer .chart-source-apa {
+  line-height: 1.4;
+  color: #334155;
+}
+
+.chart-card-footer .chart-stat-badge {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 0.82rem;
 }
 
 .chart-citation-link {
