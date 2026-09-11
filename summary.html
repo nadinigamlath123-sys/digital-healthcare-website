@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/style.css?v=1.2.0">
+  <link rel="stylesheet" href="css/style.css?v=1.2.1">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%231a56db'/><path d='M50 20v60M20 50h60' stroke='%2310b981' stroke-width='14' stroke-linecap='round'/></svg>">
 
   <!-- Chart.js CDN -->
@@ -131,8 +131,13 @@
               <canvas id="summaryRadarChart"></canvas>
             </div>
             <div class="chart-card-footer">
-              <span class="chart-source-apa"><strong>APA Citation:</strong> Digital Healthcare Society. (2024). Multi-pillar performance matrix: Telemedicine vs. traditional care synthesis index. <a href="#references">[View Reference]</a></span>
-              <span class="chart-stat-badge" style="color: var(--accent-green-dark);">+64% Net Superiority</span>
+              <div class="chart-footer-stat-row">
+                <span class="chart-stat-tag chart-stat-green">&#9650; +64% Net Superiority</span>
+                <a href="#references" class="citation-ref-btn">View Full Bibliography &rarr;</a>
+              </div>
+              <div class="chart-citation-box">
+                <span class="apa-string"><strong>APA Citation:</strong> Digital Healthcare Society. (2024). <em>Multi-pillar performance matrix: Telemedicine vs. traditional care synthesis index</em>. Digital Health Research Initiative.</span>
+              </div>
             </div>
           </div>
 
@@ -178,57 +183,81 @@
 
         <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
           <div class="image-card-showcase" style="height: auto;">
-            <div style="position: relative; height: 210px; border-radius: var(--radius-md); overflow: hidden;">
+            <div style="position: relative; height: 200px; border-radius: var(--radius-md); overflow: hidden;">
               <img src="assets/images/doctor_video_call.jpg" alt="Doctor-patient video consultation" style="height: 100%; width: 100%; object-fit: cover;">
               <div class="image-caption-pill" style="font-size: 0.78rem;">Doctor-Patient Video Call</div>
             </div>
-            <div class="photo-citation-bar">
-              <strong>APA Citation:</strong> Phuong, J., et al. (2023). <em>PLOS Digital Health</em>. <a href="#references">[View]</a>
+            <div class="photo-citation-card">
+              <div class="citation-header-row">
+                <span class="citation-pill-badge">PLOS Digital Health</span>
+                <a href="#references" class="citation-ref-btn">Ref &rarr;</a>
+              </div>
+              <p class="citation-apa-text"><strong>Phuong et al.</strong> (2023). <em>Mixed landscape of access</em>.</p>
             </div>
           </div>
           <div class="image-card-showcase" style="height: auto;">
-            <div style="position: relative; height: 210px; border-radius: var(--radius-md); overflow: hidden;">
+            <div style="position: relative; height: 200px; border-radius: var(--radius-md); overflow: hidden;">
               <img src="assets/images/digital_connectivity_map.jpg" alt="Map with digital connections" style="height: 100%; width: 100%; object-fit: cover;">
               <div class="image-caption-pill" style="font-size: 0.78rem;">Map with Digital Connections</div>
             </div>
-            <div class="photo-citation-bar">
-              <strong>APA Citation:</strong> Moyo, M. T. G. (2024). <em>IntechOpen Monograph</em>. <a href="#references">[View]</a>
+            <div class="photo-citation-card">
+              <div class="citation-header-row">
+                <span class="citation-pill-badge">IntechOpen</span>
+                <a href="#references" class="citation-ref-btn">Ref &rarr;</a>
+              </div>
+              <p class="citation-apa-text"><strong>Moyo</strong> (2024). <em>Bridging the digital health divide</em>.</p>
             </div>
           </div>
           <div class="image-card-showcase" style="height: auto;">
-            <div style="position: relative; height: 210px; border-radius: var(--radius-md); overflow: hidden;">
+            <div style="position: relative; height: 200px; border-radius: var(--radius-md); overflow: hidden;">
               <img src="assets/images/economic_healthcare.jpg" alt="Dollar sign and medical cross icons" style="height: 100%; width: 100%; object-fit: cover;">
               <div class="image-caption-pill" style="font-size: 0.78rem;">Dollar Sign &amp; Medical Cross</div>
             </div>
-            <div class="photo-citation-bar">
-              <strong>APA Citation:</strong> Moyo, M. T. G. (2024). <em>IntechOpen Monograph</em>. <a href="#references">[View]</a>
+            <div class="photo-citation-card">
+              <div class="citation-header-row">
+                <span class="citation-pill-badge">IntechOpen</span>
+                <a href="#references" class="citation-ref-btn">Ref &rarr;</a>
+              </div>
+              <p class="citation-apa-text"><strong>Moyo</strong> (2024). <em>AI-powered telemedicine &amp; equity</em>.</p>
             </div>
           </div>
           <div class="image-card-showcase" style="height: auto;">
-            <div style="position: relative; height: 210px; border-radius: var(--radius-md); overflow: hidden;">
+            <div style="position: relative; height: 200px; border-radius: var(--radius-md); overflow: hidden;">
               <img src="assets/images/doctor_digital_connection.jpg" alt="Doctor with digital connection" style="height: 100%; width: 100%; object-fit: cover;">
               <div class="image-caption-pill" style="font-size: 0.78rem;">Doctor Digital Workflows</div>
             </div>
-            <div class="photo-citation-bar">
-              <strong>APA Citation:</strong> Weinstein, R. S., et al. (2014). <em>AJM</em>. <a href="#references">[View]</a>
+            <div class="photo-citation-card">
+              <div class="citation-header-row">
+                <span class="citation-pill-badge">Am. J. Med.</span>
+                <a href="#references" class="citation-ref-btn">Ref &rarr;</a>
+              </div>
+              <p class="citation-apa-text"><strong>Weinstein et al.</strong> (2014). <em>Telemedicine that works</em>.</p>
             </div>
           </div>
           <div class="image-card-showcase" style="height: auto;">
-            <div style="position: relative; height: 210px; border-radius: var(--radius-md); overflow: hidden;">
+            <div style="position: relative; height: 200px; border-radius: var(--radius-md); overflow: hidden;">
               <img src="assets/images/patient_wearable_device.jpg" alt="Patient with wearable device" style="height: 100%; width: 100%; object-fit: cover;">
               <div class="image-caption-pill" style="font-size: 0.78rem;">Patient Wearable Device</div>
             </div>
-            <div class="photo-citation-bar">
-              <strong>APA Citation:</strong> Fitzpatrick, P. J. (2023). <em>Frontiers Public Health</em>. <a href="#references">[View]</a>
+            <div class="photo-citation-card">
+              <div class="citation-header-row">
+                <span class="citation-pill-badge">Frontiers</span>
+                <a href="#references" class="citation-ref-btn">Ref &rarr;</a>
+              </div>
+              <p class="citation-apa-text"><strong>Fitzpatrick</strong> (2023). <em>Improving health literacy</em>.</p>
             </div>
           </div>
           <div class="image-card-showcase" style="height: auto;">
-            <div style="position: relative; height: 210px; border-radius: var(--radius-md); overflow: hidden;">
+            <div style="position: relative; height: 200px; border-radius: var(--radius-md); overflow: hidden;">
               <img src="assets/images/doctor_reviewing_data.jpg" alt="Doctor reviewing digital health data" style="height: 100%; width: 100%; object-fit: cover;">
               <div class="image-caption-pill" style="font-size: 0.78rem;">Doctor Reviewing Health Data</div>
             </div>
-            <div class="photo-citation-bar">
-              <strong>APA Citation:</strong> Phuong, J., et al. (2023). <em>PLOS Digital Health</em>. <a href="#references">[View]</a>
+            <div class="photo-citation-card">
+              <div class="citation-header-row">
+                <span class="citation-pill-badge">PLOS Digital Health</span>
+                <a href="#references" class="citation-ref-btn">Ref &rarr;</a>
+              </div>
+              <p class="citation-apa-text"><strong>Phuong et al.</strong> (2023). <em>Digital health innovations</em>.</p>
             </div>
           </div>
         </div>
