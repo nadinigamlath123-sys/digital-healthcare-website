@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility & Health Equity in Telemedicine | Digital Healthcare Society</title>
+  <meta name="description" content="Discover how telemedicine expands access for underserved communities, eliminates geographic barriers, and advances healthcare equity globally.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%231a56db'/><path d='M50 20v60M20 50h60' stroke='%2310b981' stroke-width='14' stroke-linecap='round'/></svg>">
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Digital Healthcare Society Home">
+        <div class="brand-logo-badge">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 2v20M2 12h20"/>
+            <circle cx="18" cy="6" r="3" fill="#10b981" stroke="white" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-title">DigitalHealth<span>Society</span></span>
+          <span class="brand-subtitle">Impact on Society</span>
+        </div>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="accessibility.html" class="nav-link active" aria-current="page">Accessibility</a></li>
+          <li><a href="economic-impacts.html" class="nav-link">Economic Impacts</a></li>
+          <li><a href="health-outcomes.html" class="nav-link">Health Outcomes</a></li>
+          <li><a href="summary.html" class="nav-link">Summary</a></li>
+          <li><a href="summary.html#references" class="nav-link nav-cta-btn">View References</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle-btn" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Sub-Hero Page Banner -->
+    <section class="page-hero-banner">
+      <div class="container page-hero-content">
+        <span class="page-hero-tag">Pillar 01 &bull; Inclusion & Access</span>
+        <h1 class="page-hero-title">Accessibility & Equity in Telemedicine</h1>
+        <p class="page-hero-desc">
+          Virtual care bridges longstanding demographic and geographic divides, bringing high-quality clinical expertise directly into underserved rural outposts, urban health deserts, and homes of individuals with mobility limitations.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content Grid 1: Rural & Underserved Expansion -->
+    <section class="section-pad">
+      <div class="container">
+        <div class="grid-2col">
+          <div>
+            <span class="feature-tag feature-tag-blue">Expanding Frontiers</span>
+            <h2 class="content-title">Overcoming Geographic & Physical Isolation</h2>
+            <p class="content-body">
+              For decades, living in remote rural territories or low-income municipal zip codes dictated the quality and timeliness of medical attention. Approximately <strong>27% of adults live with a functional disability</strong>, facing prohibitive barriers including transit availability, long transit times, and inaccessible clinics.
+            </p>
+            <ul class="content-feature-list">
+              <li class="content-feature-item">
+                <span class="check-icon-circle">&#10003;</span>
+                <span><strong>No Physical Travel Required:</strong> Patients consult top specialists regardless of weather, transit infrastructure, or physical mobility restrictions.</span>
+              </li>
+              <li class="content-feature-item">
+                <span class="check-icon-circle">&#10003;</span>
+                <span><strong>Linguistic & Cultural Interpretation:</strong> Digital portals incorporate instant real-time interpretation for non-native language speakers and ASL video support.</span>
+              </li>
+              <li class="content-feature-item">
+                <span class="check-icon-circle">&#10003;</span>
+                <span><strong>Timely Intervention:</strong> Reduces catastrophic disease progression by catching conditions weeks before an in-person opening would become available.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="image-card-showcase">
+            <img src="assets/images/digital_connectivity_map.jpg" alt="Glowing network map representing digital health connectivity across remote and urban regions" width="600" height="380">
+            <div class="image-caption-pill">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20M2 12h20"/>
+              </svg>
+              <span>Digital networks linking rural clinics to tertiary medical institutions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Analytics: Charts Showing Access Improvements -->
+    <section class="section-pad section-tinted-blue">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Access Improvement Data</span>
+          <h2 class="section-title">Measurable Gains in Healthcare Delivery</h2>
+          <p class="section-desc">
+            Empirical data demonstrates drastic reductions in appointment delays and a steep surge in adoption across historically underserved populations.
+          </p>
+        </div>
+
+        <div class="charts-grid">
+          <!-- Chart 1: Wait Time Reductions -->
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <h3 class="chart-card-title">Specialist Appointment Wait Times</h3>
+              <p class="chart-card-subtitle">Comparing In-Person Clinic Booking vs. Virtual Teleconsultation (Days)</p>
+            </div>
+            <div class="chart-canvas-container">
+              <canvas id="accessibilityWaitTimesChart"></canvas>
+            </div>
+            <div class="chart-card-footer">
+              <span>Source: National Telehealth Utilization Review</span>
+              <strong style="color: var(--accent-green-dark);">-92% Faster Access</strong>
+            </div>
+          </div>
+
+          <!-- Chart 2: Rural & Underserved Access Trends -->
+          <div class="chart-card">
+            <div class="chart-card-header">
+              <h3 class="chart-card-title">Rural & Underserved Adoption Growth</h3>
+              <p class="chart-card-subtitle">Longitudinal Percentage of Virtual Healthcare Consultations (2019–2025)</p>
+            </div>
+            <div class="chart-canvas-container">
+              <canvas id="ruralAccessTrendsChart"></canvas>
+            </div>
+            <div class="chart-card-footer">
+              <span>Source: PLOS Digital Health & HHS Health Equity Reports</span>
+              <strong style="color: var(--primary-blue);">10.6x Growth Since 2019</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Grid 2: Doctor-Patient Connection & Equity Framework -->
+    <section class="section-pad">
+      <div class="container">
+        <div class="grid-2col reverse">
+          <div>
+            <span class="feature-tag feature-tag-green">Human-Centered Care</span>
+            <h2 class="content-title">Empowering the Doctor–Patient Relationship</h2>
+            <p class="content-body">
+              Virtual visits allow physicians to observe patients in their natural home environment, uncovering social determinants of health (housing stability, food security, medication storage) that remain invisible in traditional office visits.
+            </p>
+            <p class="content-body">
+              To guarantee that digital solutions do not inadvertently widen inequities for those without high-speed fiber or digital devices, modern health systems apply the <strong>Telemedicine Equity Framework (TEF)</strong> across four foundational pillars:
+            </p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.25rem;">
+              <div style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); padding: 1.15rem; border-radius: var(--radius-sm); border-left: 4px solid #1d4ed8; border-top: 1px solid #93c5fd; border-right: 1px solid #93c5fd; border-bottom: 1px solid #93c5fd; box-shadow: var(--shadow-sm);">
+                <strong style="font-size: 0.95rem; color: #1e3a8a;">1. Technology Readiness</strong>
+                <p style="font-size: 0.85rem; color: #1e3a5f; margin-top: 0.35rem; font-weight: 500;">Low-bandwidth audio-only backups and intuitive ADA-compliant interfaces.</p>
+              </div>
+              <div style="background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); padding: 1.15rem; border-radius: var(--radius-sm); border-left: 4px solid #059669; border-top: 1px solid #6ee7b7; border-right: 1px solid #6ee7b7; border-bottom: 1px solid #6ee7b7; box-shadow: var(--shadow-sm);">
+                <strong style="font-size: 0.95rem; color: #065f46;">2. Infrastructure Access</strong>
+                <p style="font-size: 0.85rem; color: #0f2d4a; margin-top: 0.35rem; font-weight: 500;">Municipal broadband subsidies and community telemedicine access kiosks.</p>
+              </div>
+              <div style="background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%); padding: 1.15rem; border-radius: var(--radius-sm); border-left: 4px solid #0284c7; border-top: 1px solid #67e8f9; border-right: 1px solid #67e8f9; border-bottom: 1px solid #67e8f9; box-shadow: var(--shadow-sm);">
+                <strong style="font-size: 0.95rem; color: #0369a1;">3. Policy Reform</strong>
+                <p style="font-size: 0.85rem; color: #0f2d4a; margin-top: 0.35rem; font-weight: 500;">Cross-jurisdictional licensing parity and Medicaid telehealth reimbursement.</p>
+              </div>
+              <div style="background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); padding: 1.15rem; border-radius: var(--radius-sm); border-left: 4px solid #d97706; border-top: 1px solid #fcd34d; border-right: 1px solid #fcd34d; border-bottom: 1px solid #fcd34d; box-shadow: var(--shadow-sm);">
+                <strong style="font-size: 0.95rem; color: #92400e;">4. Community Capacity</strong>
+                <p style="font-size: 0.85rem; color: #451a03; margin-top: 0.35rem; font-weight: 500;">Digital navigators and local multilingual digital literacy workshops.</p>
+              </div>
+            </div>
+          </div>
+          <div class="image-card-showcase">
+            <img src="assets/images/doctor_video_call.jpg" alt="Doctor conducting virtual consultation with elderly patient on high definition computer screen" width="600" height="380">
+            <div class="image-caption-pill">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/>
+              </svg>
+              <span>High-definition video consultations bridging patients and physicians</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- External Resource Link Card: Center for Health Care Strategies -->
+    <section class="container">
+      <div class="resource-callout-card">
+        <div class="resource-info">
+          <span class="resource-badge">Authoritative Organization</span>
+          <h3 class="resource-title">Center for Health Care Strategies (CHCS)</h3>
+          <p class="resource-desc">
+            CHCS is a nonprofit policy center dedicated to improving the health of low-income Americans. Explore their policy briefs on telemedicine financing, state Medicaid coverage expansions, and interventions dismantling digital health inequities in complex patient populations.
+          </p>
+        </div>
+        <a href="https://www.chcs.org/" target="_blank" rel="noopener noreferrer" class="resource-btn" aria-label="Visit Center for Health Care Strategies website">
+          Visit CHCS.org
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Privacy Policy & Terms Modal -->
+  <div class="modal-backdrop" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="privacyModalTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="privacyModalTitle">Policy & Privacy Statement</h3>
+        <button class="modal-close-btn" data-close-privacy aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4 style="margin-bottom: 0.5rem; color: var(--primary-navy);">Informational & Educational Mission</h4>
+        <p style="margin-bottom: 1rem; color: var(--text-muted); font-size: 0.95rem;">
+          The Digital Healthcare Society portal is an open educational initiative dedicated to examining the social, economic, and clinical impacts of virtual care.
+        </p>
+        <h4 style="margin-bottom: 0.5rem; color: var(--primary-navy);">Patient Privacy & HIPAA Compliance</h4>
+        <p style="margin-bottom: 1rem; color: var(--text-muted); font-size: 0.95rem;">
+          Digital healthcare technologies must strictly safeguard Protected Health Information (PHI) under HIPAA, GDPR, and corresponding international regulations.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Standardized Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div>
+          <div class="footer-brand-title">DigitalHealth<span>Society</span></div>
+          <p class="footer-brand-desc">
+            Advancing public awareness and policy dialogue regarding the transformative influence of telemedicine and digital health technologies on society.
+          </p>
+          <div class="contact-email-box">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <a href="mailto:info@digitalhealthsociety.com" class="contact-email-link">info@digitalhealthsociety.com</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="accessibility.html" class="footer-link">Accessibility & Equity</a></li>
+            <li><a href="economic-impacts.html" class="footer-link">Economic Impacts</a></li>
+            <li><a href="health-outcomes.html" class="footer-link">Health Outcomes</a></li>
+            <li><a href="summary.html" class="footer-link">Summary & References</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">External Resources</h4>
+          <ul class="footer-links-list">
+            <li><a href="https://www.chcs.org/" target="_blank" rel="noopener noreferrer" class="footer-link">Center for Health Care Strategies</a></li>
+            <li><a href="https://www.intechopen.com/books/telemedicine-models-of-care" target="_blank" rel="noopener noreferrer" class="footer-link">IntechOpen Telemedicine Models</a></li>
+            <li><a href="https://journals.plos.org/digitalhealth/" target="_blank" rel="noopener noreferrer" class="footer-link">PLOS Digital Health</a></li>
+            <li><a href="https://www.frontiersin.org/journals/public-health" target="_blank" rel="noopener noreferrer" class="footer-link">Frontiers in Public Health</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Connect With Us</h4>
+          <p style="font-size: 0.88rem; color: #94a3b8; margin-bottom: 1.25rem;">
+            Follow our initiatives and research publications across verified medical and health technology networks:
+          </p>
+          <div class="social-icons-row">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Follow on LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Follow on Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Follow on Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.5 5H18V0h-3.808C10.595 0 9 1.582 9 4.615V8z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>&copy; 2026 Digital Healthcare Society. All rights reserved.</div>
+        <div style="display: flex; gap: 1.5rem; align-items: center;">
+          <button type="button" class="footer-privacy-btn" data-open-privacy>Policy & Privacy Statement</button>
+          <a href="mailto:info@digitalhealthsociety.com" class="footer-privacy-btn" style="text-decoration: none;">info@digitalhealthsociety.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/charts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
