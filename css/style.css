@@ -615,12 +615,19 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
-  align-items: center;
+  align-items: start;
   background: linear-gradient(135deg, #cbe2fb 0%, #c4f3e3 100%);
   border-radius: var(--radius-lg);
   padding: 2.5rem;
   border: 2px solid #8ec1ee;
   box-shadow: 0 12px 28px rgba(29, 78, 216, 0.15);
+}
+
+.infographic-left-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  width: 100%;
 }
 
 .infographic-card-frame {
